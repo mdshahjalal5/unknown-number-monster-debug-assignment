@@ -62,6 +62,20 @@ body {
   display: none;
 }
 #result {
+  /* position: fixed; */
+  top: 10%;
+  left: 10%;
+  transform: translate(0%, -450%);
+  height: 250px;
+  width: 400px;
+  background-color: #171717;
+  border-radius: 15px;
+  border: 2px solid #9dffad;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+/* #result {
   position: fixed;
   top: 10%; 
   left: 10%;
@@ -74,7 +88,7 @@ body {
   color: white;
   text-align: center;
   padding: 2rem;
-}
+} */
 #show-time{
   text-align: center;
   color: white;
